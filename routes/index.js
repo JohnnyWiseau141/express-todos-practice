@@ -7,11 +7,6 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Express' })
 })
 
-router.get("/banana", function(req, res) {
-  console.log("the /banana route lol")
-  res.send('<h1>Testing ONE TWO TESTING!!!!<h2>')
-})
-
 export { 
   router
 }
